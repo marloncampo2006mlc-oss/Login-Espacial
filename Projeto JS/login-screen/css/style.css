@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(circle at bottom, #020617, #000);
+}
+
+#spaceCanvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 360px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background: rgba(5, 10, 30, 0.75);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+.login-box h2 {
+  font-size: 26px;
+}
+
+.login-box p {
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+#message {
+  display: block;
+  margin-top: 14px;
+  text-align: center;
+}
